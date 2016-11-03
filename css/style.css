@@ -1,0 +1,25 @@
+.head  {
+	background-color: #197BBF;
+	color:#F4F4F4;
+	font-family: 'Amatic SC', cursive;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.cuadrotexto {
+	margin-top:10px;
+}
+
+.boton {
+	margin-top:10px;
+}
+
+.cheklist {
+	background-color: #E3E3E3;
+	margin:2px;
+	padding:5px;
+}
+
+.iconos {
+	padding-left: 10px;
+}
