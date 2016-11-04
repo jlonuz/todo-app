@@ -15,11 +15,22 @@
 }
 
 .cheklist {
-	background-color: #E3E3E3;
+	background-color: #9EBAE3;
 	margin:2px;
 	padding:5px;
 }
 
 .iconos {
 	padding-left: 10px;
+}
+
+
+
+
+.rayita-encima {
+	text-decoration: line-through;
+}
+
+.corazon {
+	color:red;
 }

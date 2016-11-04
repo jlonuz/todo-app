@@ -18,24 +18,21 @@
 	</header>
 <!--Aquí se ingresan las tareas por hacer-->	
 	<section class="container">
-		<textarea class="form-control cuadrotexto" scrolling="yes" placeholder="Añade tu nueva tarea" rows="3"></textarea>
-		<button type="button" class="btn btn-primary boton">Añadir Tarea</button>
+		<textarea class="form-control cuadrotexto" id="tareas" scrolling="yes" placeholder="Añade tu nueva tarea" rows="3"> </textarea>
+		<button type="button" onclick="agregarTarea()" class="btn btn-primary boton">Añadir Tarea</button>
 		<hr>
 	</section>
 <!-- Aqui empieza el listado de tareas-->	
-	<section class="container">
+	<section class="container" id="contenedorTareas">
 		<div class="row">
 			<div class="col-xs-16 col-ms-16 col-md-16">
 				<!--Tarea-->
 				<div class="cheklist">
-					<input type="checkbox"> Comprar verduras y frutas en la Vega.
-					<!-- Aquí están los íconos-->					
-					<a href="#">
-						<i class="fa fa-heart pull-right iconos" aria-hidden="true"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-trash pull-right iconos" aria-hidden="true"></i>
-					</a>
+					<input type="checkbox">
+					<span>Comprar verduras y frutas en la Vega.</span>
+					<!-- Aquí están los íconos-->		
+					<i class="fa fa-heart pull-right iconos" aria-hidden="true"></i>
+					<i class="fa fa-trash pull-right iconos" aria-hidden="true"></i>
 				</div>
 			</div>
 		</div>
@@ -43,39 +40,19 @@
 			<div class="col-xs-16 col-ms-16 col-md-16">
 				<!--Tarea-->
 				<div class="cheklist">
-					<input type="checkbox"> Revisar vestuario y maquillaje para función de mañana.
+					<input type="checkbox"> 
+					<span>Revisar vestuario y maquillaje para función de mañana.
 					<!-- Aquí están los íconos-->
-					<a href="#">
-						<i class="fa fa-heart pull-right iconos" aria-hidden="true"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-trash pull-right iconos" aria-hidden="true"></i>
-					</a>
-					
+					<i class="fa fa-heart pull-right iconos" aria-hidden="true"></i>
+					<i class="fa fa-trash pull-right iconos" aria-hidden="true"></i>
 				</div>
 			</div>
 		</div>
-							
-
-				
-			
-		
 	</section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-	<script type="text/javascript" href="js/main.js"></script>
-	<script type="text/js" href="js/bootstrap.js"></script>
-	<script type="text/js" href="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
