@@ -2,6 +2,8 @@ function agregarTarea(){
 
 	var ingresoTarea = document.getElementById('tareas').value;
 
+	document.getElementById('tareas').value = "";
+
 	if(ingresoTarea == "" || ingresoTarea == null){
 		alert("Error, ingresa una tarea válida");
 		return; 
@@ -76,7 +78,9 @@ function agregarTarea(){
 	})
 
 	//para borrar trea presionando basurero
-	iconTrash.addEventListener('click', )
+	iconTrash.addEventListener('click', function(){
+		contenedorTareas.removeChild(divRow);
+	});
 }
 
 
